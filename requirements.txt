@@ -1,0 +1,17 @@
+# BitVision - Crypto TUI + XGBoost trading bot requirements
+# Created for Python 3.9–3.12
+
+textual>=0.80.0          # Modern Textual TUI framework
+ccxt>=4.3.0              # Crypto exchange library
+aiohttp>=3.9.0           # Async HTTP client
+pandas>=2.2.0            # Data manipulation
+numpy>=1.26.0            # Numerical operations
+xgboost>=2.0.0           # XGBoost model (JSON format support)
+pandas_ta>=0.3.14b0      # Technical analysis indicators
+scikit-learn>=1.4.0      # ML utilities (train_test_split, metrics, etc.)
+imbalanced-learn>=0.12.0 # SMOTE for class imbalance
+joblib>=1.4.0            # Model saving/loading (used by scikit-learn)
+
+# Optional / nice-to-have (not strictly required but appear in some scripts)
+matplotlib>=3.8.0        # If you ever want to plot charts locally
+requests>=2.31.0         # Fallback sync HTTP (rarely used here)
